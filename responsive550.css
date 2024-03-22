@@ -1,3 +1,7 @@
 @media screen and (min-width: 550px) {
-
+   /* Side Menu  */
+   .navigation{
+    top: 55px;
+    
+  }
   }

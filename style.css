@@ -97,3 +97,53 @@ nav ul li button {
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* Sidebar Menu  */
+.navigation {
+    position: fixed;
+    top: 50px;
+    right: -350px;
+    width: 350px;
+    height: 100%;
+    background-color: red;
+    transition: .5s;
+}
+
+.nav-item {
+
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    border-bottom: 1pt solid #252525;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Plus Jakarta Sans SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.64px;
+    text-align: left;
+
+}
+.nav-item button{
+    background-color: white;
+    border: 1px solid #2AF0EA;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 10px;
+    color: #2AF0EA;
+    font-family: Plus Jakarta Sans SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.toggalSecNav {
+    right: 0px;
+}
